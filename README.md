@@ -1,8 +1,8 @@
 # IKT projektmunka Dani Kristóf
 ## ONGAKU
-Ahol a zene életre kel
+### Ahol a zene életre kel
 
-A weboldal tartalma:
+#### A weboldal tartalma:
 - Hangszer árúsítás
   - Elektromos
   - Hagyományos
@@ -15,8 +15,6 @@ A weboldal tartalma:
     - jazz
     - komoly
     - stb.
-   
-  README lényege kb kész.... remélhetőleg
 
-  trello:
-  https://trello.com/b/jpjVzcgn/dani-kristof-projektmunka
+#### trello:
+https://trello.com/b/jpjVzcgn/dani-kristof-projektmunka
