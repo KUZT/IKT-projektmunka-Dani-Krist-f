@@ -1,3 +1,2 @@
-# IKT projektmunka Dani Kristóf
-
-##siker?
+# wtf?
+## he
