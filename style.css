@@ -1,0 +1,29 @@
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col{
+    padding: 20px;
+}
+
+.cím{
+    font-size: xxx-large;
+    display: inline-flex;
+    align-items: center; 
+    gap: 10px;
+
+}
+
+ div ul li {
+    float: left;
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
