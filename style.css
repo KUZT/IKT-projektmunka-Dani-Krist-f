@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'GangOfThree';
+  src: url('go3v2.ttf') format('truetype');
+}
+
 .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,8 +17,17 @@
     display: inline-flex;
     align-items: center; 
     gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: GangofThree;
 
 }
+.cím:hover{
+    color: red;
+    gap: 9px;
+    font-weight: bolder;
+}
+
 
  div ul li {
     float: left;
@@ -24,6 +38,50 @@ ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 30px;
     text-decoration: none;
+    font-size: larger;    
+
 }
+
+ul li a:hover {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;    
+
+}
+.nav_rólu:hover{
+    padding: 6px 023px;
+}
+.nav_áruh:hover{
+    padding: 6px 22.89px;
+}
+.nav_okta:hover{
+    padding: 6px 22.5px;
+}
+.nav_elér:hover{
+    padding: 6px 18.7px;
+}
+
+header{
+    background-image: url(KépekIKTP/Japán\ stílusú\ zeneszoba.png);
+
+  background-size: cover; 
+  background-position-y:  -400px;; /* A kép középre igazítása */
+  background-repeat: no-repeat; /* Ne ismétlődjön a háttérkép */
+  width: 100%;
+  height: 900px; /* A kívánt magasság */
+}
+
+header p{
+
+    background-color: aliceblue;
+    padding: 0px 15px;
+}
+
+.alma{
+    display: block;
+        background-color: rgba(255, 255, 255, 60%);
+    }
