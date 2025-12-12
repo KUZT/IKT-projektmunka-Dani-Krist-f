@@ -85,3 +85,13 @@ header p{
     display: block;
         background-color: rgba(255, 255, 255, 60%);
     }
+
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+    h1, h2, h3 {
+        margin: 10px 0;
+    }
