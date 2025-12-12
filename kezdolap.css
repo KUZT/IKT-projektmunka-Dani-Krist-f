@@ -1,3 +1,6 @@
+@font-face {
+  font-family: '2';
+  src: url('GreatVibes-Regular.ttf') format('truetype');}
 header{
     background-image: url(KépekIKTP/Japán\ stílusú\ zeneszoba.png);
 
@@ -12,4 +15,10 @@ header p{
 
     background-color: aliceblue;
     padding: 0px 15px;
+}
+.rolunk{
+    padding: 20px 20% ; 
+    font-size: x-large ;
+    text-align: justify; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
