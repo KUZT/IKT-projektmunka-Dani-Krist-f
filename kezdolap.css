@@ -1,0 +1,15 @@
+header{
+    background-image: url(KépekIKTP/Japán\ stílusú\ zeneszoba.png);
+
+  background-size: cover; 
+  background-position-y:  -400px;; /* A kép középre igazítása */
+  background-repeat: no-repeat; /* Ne ismétlődjön a háttérkép */
+  width: 100%;
+  height: 900px; /* A kívánt magasság */
+}
+
+header p{
+
+    background-color: aliceblue;
+    padding: 0px 15px;
+}

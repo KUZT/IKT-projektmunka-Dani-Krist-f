@@ -1,0 +1,79 @@
+* {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'GangOfThree';
+  src: url('go3v2.ttf') format('truetype');
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col{
+    padding: 20px;
+}
+
+.cím{
+    font-size: xxx-large;
+    display: inline-flex;
+    align-items: center; 
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: GangofThree;
+
+}
+.cím:hover{
+    color: red;
+    gap: 9px;
+    font-weight: bolder;
+}
+
+
+ div ul li {
+    float: left;
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: larger;    
+
+}
+
+ul li a:hover {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;    
+
+}
+.nav_rólu:hover{
+    padding: 6px 023px;
+}
+.nav_áruh:hover{
+    padding: 6px 22.89px;
+}
+.nav_okta:hover{
+    padding: 6px 22.5px;
+}
+.nav_elér:hover{
+    padding: 6px 18.7px;
+}
+
+.alma{
+    display: block;
+        background-color: rgba(255, 255, 255, 60%);
+    }
+
+
