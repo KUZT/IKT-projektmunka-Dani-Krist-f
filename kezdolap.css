@@ -16,9 +16,42 @@ header p{
     background-color: aliceblue;
     padding: 0px 15px;
 }
+
+h2{
+  text-align: center;font-size: xx-large ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #b32424;
+  margin-top: 20px;
+}
+
 .rolunk{
     padding: 20px 20% ; 
     font-size: x-large ;
     text-align: justify; 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row1{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start; /* vagy stretch, ha mindent ki akarsz tölteni */
+    gap: 20px;
+
+}
+.col1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* vízszintas közép */
+    align-items: center;     /* függőleges közép (ha kell) */
+}
+
+.kép1 {
+    width: 500px;
+    display: block;          /* fontos! */
+    margin: 0 auto;    
+    border-radius: 30px;
+    border: #b32424, solid, 5px;
+    
+}
+.képsz p{
+  padding: 10px;
+text-align: justify;
 }
