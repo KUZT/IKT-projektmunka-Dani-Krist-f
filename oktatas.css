@@ -1,0 +1,33 @@
+h1, h2,#szov1,p{
+    text-align: center;
+}
+
+h1{
+    margin-top:50px ;
+    font-size: xxx-large;
+    color: white;
+}
+
+p{
+    font-size: larger; 
+}
+
+h2{
+    font-size: xx-large;
+}
+
+.alcim1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#fokep{
+    background-image: url(KépekIKTP/Szinti_Gitár.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#szov1{
+    padding: 10px 30%;
+}
