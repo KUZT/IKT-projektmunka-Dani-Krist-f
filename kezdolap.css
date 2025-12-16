@@ -1,6 +1,11 @@
+
+
 @font-face {
   font-family: '2';
   src: url('GreatVibes-Regular.ttf') format('truetype');
+}
+:root{
+  --piros: #b32424; 
 }
 
 header {
