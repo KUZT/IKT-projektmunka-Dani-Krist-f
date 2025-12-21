@@ -1,11 +1,10 @@
-
-
 @font-face {
   font-family: '2';
   src: url('GreatVibes-Regular.ttf') format('truetype');
 }
-:root{
-  --piros: #b32424; 
+
+:root {
+  --piros: #b32424;
 }
 
 header {
@@ -24,10 +23,17 @@ header p {
   padding: 0px 15px;
 }
 
-h2 {
+h2{
   text-align: center;
   font-size: xx-large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #b32424;
+  margin-top: 20px;
+}
+
+h3{
+  font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #b32424;
   margin-top: 20px;
 }
@@ -38,6 +44,7 @@ p {
   text-align: justify;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .row1 {
   display: grid;
@@ -59,10 +66,36 @@ p {
   display: block;
   margin: 0 auto;
   border-radius: 30px;
-  border: 5px #b32424 solid ;
+  border: 5px #b32424 solid;
 }
 
 .képsz p {
   padding: 10px;
   text-align: justify;
+}
+
+.a2 {
+  text-align: center;
+}
+
+
+button {
+  font-size: larger;
+  font-weight: bolder;
+  padding: 15px;
+  border: 1px #b32424 solid;
+  color: rgb(85, 64, 36);
+  cursor: pointer;
+  background-color: #993c3c93;
+}
+
+#b {
+
+  background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.63), rgb(255, 255, 255) ), url(KépekIKTP/Hangszerek.jpg) ;
+  backface-visibility: 0.5;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.elvesztem{
+  padding:  150px 0;
 }
